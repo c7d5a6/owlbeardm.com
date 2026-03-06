@@ -106,7 +106,8 @@ function WWNCriticalController($log) {
     const rand2 = Math.random();
     console.log("Random", rand1, rand2)
     ctrl.makeWBodyPart(Math.floor(rand1 * 20 + 1));
-    ctrl.wResult = Math.floor(rand2 * 15 + 1);
+    ctrl.makeWRoll(Math.floor(rand2 * 20 + 1));
+
   }
 }
 

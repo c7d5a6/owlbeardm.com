@@ -6,7 +6,34 @@
 |--------|--------|-------|
 | **WFRPG** | ✅ Fully ready | All 9 weapon types × 4 body parts × 15 levels complete |
 | **PF2** | 🔶 Mostly done | ~6/15 completed per Head/Body, ~3/15 per Arms/Legs. TODO entries exist for levels 7+ (some inconsistencies in penalty values remain) |
-| **WWN** | ❌ Not started | Do not reference |
+| **WWN** | ✅ Mechanical migration done | All 12 weapon types migrated to WWN mechanics. Bleed restructured (no body parts). Narrative text preserved from WFRPG/PF2. See [wwn-critical-migration-guide.md](mdc:wwn-critical-migration-guide.md) |
+
+### WWN Completion Detail
+
+Mechanical penalties migrated from WFRPG/PF2 to WWN (Mar 2026). Changes made:
+
+- **Saves:** Will → Mental, Fortitude → Physical, Reflex → Evasion
+- **Skills:** Medicine → Int/Heal, Athletics → Exert, Perception → Notice, Administer First Aid → Dex/Heal
+- **DCs:** PF2 difficulty modifiers → WWN DC values (DC 6–14)
+- **Conditions:** sickened N → –N to all rolls, slowed 1 → Slowed, slowed 2 → Stunned, flat-footed → –2 AC, dazzled → Blinded
+- **WFRPG stats:** Fel → Charisma, IP → System Strain, W characteristic → HP
+- **Bleed:** Restructured from 4 body parts to "Wounds" (no body parts), 15 new entries created
+- **All TODO markers removed** from all 12 weapon types
+
+| Weapon Type | Head | Body | Arms | Legs | Wounds |
+|-------------|------|------|------|------|--------|
+| Arrow | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | — |
+| Blunt | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | — |
+| Bullet | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | — |
+| Claws | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | — |
+| Cutting | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | — |
+| Flame | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | — |
+| Piercing | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | — |
+| Explosion | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | — |
+| Unarmed | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | 15/15 ✅ | — |
+| Mental | — | — | — | — | 15/15 ✅ |
+| Poison | — | — | — | — | 15/15 ✅ |
+| Bleed | — | — | — | — | 15/15 ✅ |
 
 ### PF2 Completion Detail
 
@@ -193,6 +220,6 @@ Both systems share the same weapon/damage types with body-part-specific tables:
 | Piercing | Yes | Deep penetration; organ damage; withdrawal mechanics |
 | Explosion | Yes | Shrapnel; mixed piercing/cutting; fragment embedding |
 | Unarmed | Yes | Bruises; breaks; dislocations; grapple/throw |
-| Mental | No (Wounds only) | PF2 only – 3/15 completed |
-| Poison | No (Wounds only) | PF2 only – 3/15 completed |
-| Bleed | Yes | PF2 only – 0/15 completed |
+| Mental | No (Wounds only) | PF2: 3/15 completed; WWN: 15/15 migrated |
+| Poison | No (Wounds only) | PF2: 3/15 completed; WWN: 15/15 migrated |
+| Bleed | No (Wounds only, WWN) | PF2: 0/15; WWN: 15/15 (new entries, no body parts) |
