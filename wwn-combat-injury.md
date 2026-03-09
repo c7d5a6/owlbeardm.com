@@ -58,6 +58,20 @@ Those with the Heal skill can tend the sick, granting a bonus to their saving th
 
 ## Homebrew
 
+### Quick Rules
+
+- A creature hit at zero hit points gains 1 **Wound** and makes a **Wound Roll** on the Wounds Effect Table
+- Minor NPCs die instantly at zero hit points; PCs and named NPCs accumulate Wounds instead
+- A character with one or more Wounds gains the **Wounded** quality: they cannot recover hit points naturally and do not lose System Strain during rest
+- An ally can **Treat** a Wounded companion with a Dex or Int/Heal check at difficulty 7 plus the target's current Wound count; the attempt always adds 1 System Strain whether it succeeds or fails
+- On a successful Treat, the target loses 1 Wound; this does not restore any hit points
+- **Automatic stabilization** triggers at the start of the creature's turn, removing all Wounds at once at the cost of 1 System Strain per Wound removed; if the character gained a Wound this round, the Wound Roll is made before stabilization takes effect
+- Magical healing removes Wounds at 1 System Strain per Wound removed; as many Wounds are cleared as remaining System Strain capacity allows
+- Characters lose the Wounded quality only when all Wounds are removed
+- First aid after a battle heals 1d6 HP plus the healer's Heal skill and can be done multiple times, but each use adds 1 System Strain to the target; first aid cannot remove Wounds
+- A creature's maximum System Strain is equal to their Constitution score; a creature at maximum System Strain can no longer benefit from any effect that would add strain
+- A creature that is not Wounded recovers their level or hit dice in lost hit points after each good night's rest and also loses one accrued System Strain point
+
 ### Injury, Healing, and System Strain
 
 Despite the eons of meddling and corruption, the Legacy has still conferred a certain degree of health and recuperative ability on the humanity of the Latter Earth. While this hardiness is a subtle quality, the natives of this age can recover with unusual quickness.
@@ -78,7 +92,7 @@ The difficulty for this check is **7 plus the target's current Wound count**. If
 
 **Regardless of success or failure**, the attempt adds 1 System Strain to the target — the body is taxed just by the effort of intervention. On a success, the target loses 1 Wound. This does not restore any hit points.
 
-If a character can be **automatically stabilized** — all of their Wounds are removed at once, with each Wound removed costing 1 System Strain. If the character received a new Wound this round, they must first make the Wound Roll for that Wound before stabilization takes effect.
+If a character can be **automatically stabilized**, the effect triggers at the start of their turn — all of their Wounds are removed at once, with each Wound removed costing 1 System Strain. If the character received a new Wound this round, they must first make the Wound Roll for that Wound before stabilization takes effect.
 
 If the character does not have enough System Strain capacity to cover all Wounds, as many Wounds are removed as the remaining capacity allows.
 
